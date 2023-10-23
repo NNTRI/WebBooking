@@ -1,0 +1,15 @@
+.content {
+  width: 100%;
+  background-color: white;
+}
+.content_inner {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.container {
+  width: 100%;
+  color: #339af0;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}

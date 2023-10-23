@@ -1,0 +1,33 @@
+.body {
+  width: 100%;
+  margin: auto;
+  font-family: inherit sans-serif;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+.content_container {
+  width: 100%;
+  background-color: white;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.container_inner {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 2rem;
+}
+
+.search_input {
+  width: 25%;
+  height: auto;
+}
+
+.search_result {
+  width: 70%;
+  height: auto;
+}

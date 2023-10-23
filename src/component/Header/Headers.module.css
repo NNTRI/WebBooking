@@ -1,0 +1,33 @@
+.content {
+  width: 100%;
+  background-color: #1864ab;
+}
+.content_inner {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.headers {
+  width: 100%;
+  height: auto;
+  padding-top: 0.5rem;
+  padding-bottom: 5rem;
+  background-color: #1864ab;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  color: white;
+  position: relative;
+}
+
+.signin_button {
+  display: inline-block;
+  width: 10rem;
+  margin-left: 1rem;
+  padding: 1rem 0.5rem;
+  background-color: #4dabf7;
+  border: none;
+  cursor: pointer;
+  color: white;
+  margin-left: 1px;
+}

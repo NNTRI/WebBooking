@@ -1,0 +1,18 @@
+.content {
+  width: 30%;
+  height: auto;
+  position: relative;
+}
+
+.content img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.content_inner {
+  position: absolute;
+  top: 70%;
+  left: 5%;
+  color: white;
+}

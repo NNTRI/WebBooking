@@ -1,0 +1,96 @@
+.formcontrol {
+  width: 96%;
+  height: 2rem;
+  background-color: white;
+  padding: 1rem 1rem;
+  border: 2px solid #ffa94d;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 0%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+
+.input_where {
+  width: 24%;
+  height: auto;
+  color: gray;
+  position: relative;
+}
+
+.input_where input {
+  width: 100%;
+  height: 1.5rem;
+  padding-left: 32px;
+  border: none;
+}
+
+.input_where i {
+  top: 6px;
+  left: 8px;
+  position: absolute;
+}
+
+.input_date {
+  width: 24%;
+  height: auto;
+  color: gray;
+  position: relative;
+}
+
+.input_date input {
+  width: 100%;
+  height: 1.5rem;
+  padding-left: 32px;
+  border: none;
+}
+
+.input_date i {
+  top: 6px;
+  left: 8px;
+  position: absolute;
+}
+
+.input_room {
+  width: 24%;
+  height: auto;
+  color: gray;
+  position: relative;
+}
+
+.input_room input {
+  width: 100%;
+  height: 1.5rem;
+  padding-left: 32px;
+  border: none;
+}
+
+.input_room i {
+  top: 6px;
+  left: 10px;
+  position: absolute;
+}
+
+.search_button {
+  width: 80px;
+  color: white;
+  padding: 1rem 0.5rem;
+  background-color: #4dabf7;
+  border: none;
+  cursor: pointer;
+}
+
+.modal_date {
+  position: absolute;
+  left: -40px;
+  z-index: 1;
+}
+
+.custom.rs-picker-toggle {
+  border: none;
+}

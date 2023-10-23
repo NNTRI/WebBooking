@@ -1,0 +1,36 @@
+.content {
+  width: 25%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  cursor: pointer;
+}
+
+.content img {
+  width: 240px;
+  height: 240px;
+  object-fit: cover;
+}
+
+.content_inner {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.content_inner a {
+  cursor: pointer;
+  color: #7950f2;
+}
+
+.content_inner p,
+span {
+  color: #adb5bd;
+}
+
+.prices {
+  color: white;
+  background-color: #1864ab;
+  padding: 0 0.1rem;
+}

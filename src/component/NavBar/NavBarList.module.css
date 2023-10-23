@@ -1,0 +1,28 @@
+.navbar_menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2rem;
+  list-style: none;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-left: -32px;
+}
+
+.navbar_menu li {
+  color: white;
+  padding: 0.5rem;
+}
+
+.navbar_menu a {
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+  margin-left: 0.5rem;
+}
+
+.active {
+  border: 2px solid white;
+  border-radius: 18px;
+}

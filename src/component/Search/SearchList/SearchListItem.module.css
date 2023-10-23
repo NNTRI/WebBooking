@@ -1,0 +1,134 @@
+.container_content {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  border: 1px solid #ced4da;
+  border-radius: 10px;
+  padding: 0.5rem 0.5rem;
+}
+
+.content_img img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.content_inner {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.content_inner p {
+  font-size: 0.9rem;
+}
+
+.content_inner_tag {
+  flex-shrink: 1;
+  width: 120px;
+  background-color: #40c057;
+  border-radius: 5px;
+  text-align: left;
+  color: white;
+}
+
+.content_inner_title {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.title_name {
+  width: 300px;
+  font-size: 1.2rem;
+  color: #1971c2;
+}
+
+.title_rate {
+  width: 120px;
+  font-size: 1rem;
+  color: #212529;
+  text-align: left;
+}
+
+.title_point {
+  width: 32px;
+  background-color: #1864ab;
+  text-align: center;
+  color: white;
+}
+
+.content_inner_description {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  justify-items: center;
+}
+
+.description_text {
+  width: 300px;
+}
+
+.description_text p {
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.description_text span {
+  font-size: 0.8rem;
+  color: #868e96;
+}
+
+.description_price {
+  width: 152px;
+  text-align: center;
+}
+
+.description_price p {
+  font-size: 1.5rem;
+  text-align: right;
+}
+
+.description_price span {
+  font-size: 0.8rem;
+  text-align: right;
+  margin-left: 10px;
+}
+
+.content_inner_book {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.book_options {
+  width: 300px;
+  color: #40c057;
+}
+
+.book_options span {
+  font-size: 0.9rem;
+  color: #40c057;
+  font-weight: bold;
+}
+
+.book_options p {
+  font-size: 0.7rem;
+}
+
+.book_button button {
+  width: 152px;
+  text-align: center;
+  background-color: #1c7ed6;
+  border: none;
+  color: white;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+}

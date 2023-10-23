@@ -1,0 +1,38 @@
+.content {
+  width: 100%;
+  background-color: #1864ab;
+}
+.content_inner {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.navbar {
+  width: 100%;
+  height: auto;
+  background-color: #1864ab;
+  padding-top: 0.5rem;
+}
+
+.navbar_header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar_header h3 {
+  color: white;
+}
+
+.navbar_header_button {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.navbar_header_button button {
+  padding: 0.5rem;
+  color: gray;
+  border: none;
+  cursor: pointer;
+}

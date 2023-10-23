@@ -1,0 +1,42 @@
+.content {
+  width: 100%;
+  background-color: #1864ab;
+}
+.content_inner {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  color: white;
+  margin-top: 0.5rem;
+}
+
+.formregister {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+}
+
+.formregister input {
+  width: 300px;
+  height: 2rem;
+}
+
+.formregister button {
+  background-color: #4dabf7;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
